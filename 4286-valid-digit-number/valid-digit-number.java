@@ -3,9 +3,9 @@ class Solution {
         Boolean bool = false;
         int last = -1;
         while(n>0){
-            int digit = n%10;
-            last = digit;
-            if(digit == x){
+            
+            last = n%10;
+            if(n%10 == x){
                 bool = true;
             }
             n/=10;
