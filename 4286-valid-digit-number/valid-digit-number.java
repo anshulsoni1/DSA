@@ -11,9 +11,7 @@ class Solution {
             n/=10;
             
         }
-        if (last != x && bool==true){
-            return true;
-        }
-        return false;
+        return (last != x && bool);
+           
     }
 }
